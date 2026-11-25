@@ -27,7 +27,7 @@ tasks.withType<JavaCompile> {
 
 application {
     mainModule.set("com.emberkeep.emberkeep")
-    mainClass.set("com.emberkeep.emberkeep.HelloApplication")
+    mainClass.set("com.emberkeep.emberkeep.Launcher")
 }
 
 javafx {
